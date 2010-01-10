@@ -33,11 +33,11 @@ h1#title{
 
 ul#menu,ul#posts-list {
   list-style: none;
-  text-align: left;
+  text-align: center;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 #menu li {
-  float:left;
+  float: right;
   margin: 10px;
 }
 
@@ -46,12 +46,14 @@ ul#posts-list {
 }
 #menu {
   font-size:10pt;
-  font-weight: bolder;
 }
 img#license {
   float:right;
 }
 div#license,div#menu{
   font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size:10pt;
 }
-
+p#license{
+  text-align: right;
+}
