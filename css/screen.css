@@ -9,13 +9,13 @@ body {
   font-size:12pt;
 }
 
-#title, #menu, #content, #footer, #source, #license, #posts-list{
+#title, #menu, #content, #footer, #source, #license, #posts-list, div#disqus_thread{
   background-color: rgba(255,255,255,0.8);
   border-radius: 10px;
   margin: 10px;
 }
 
-p, img, ul, h1, h2, h3, h4, h5, h6, address {
+p, img, ul, h1, h2, h3, h4, h5, h6, address{
   padding-left: 10px;
   padding-right: 10px;
 }
