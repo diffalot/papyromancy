@@ -4,3 +4,6 @@
 [submodule "_posts/visualizations/wikipedia"]
 	path = _posts/visualizations/wikipedia
 	url = git@gist.github.com:274776.git
+[submodule "_posts/hacks/jekyll-hacks"]
+	path = _posts/hacks/jekyll-hacks
+	url = git@gist.github.com:274815.git
