@@ -1,3 +1,6 @@
 [submodule "css/960.gs"]
 	path = css/960.gs
 	url = git://github.com/nathansmith/960-Grid-System.git
+[submodule "_posts/visualizations/wikipedia"]
+	path = _posts/visualizations/wikipedia
+	url = git@gist.github.com:274776.git
