@@ -5,7 +5,7 @@ body {
   background-repeat:no-repeat;
   background-attachment:fixed;
   color: #111;
-  font-family: Georgia, serif;
+  font-family: "sorts-mill-goudy-1", Georgia, serif;
   font-size:12pt;
 }
 
@@ -21,7 +21,7 @@ p, img, ul, h1, h2, h3, h4, h5, h6, address{
 }
 
 h1,h2,h3,h4,h5,h6, address {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "tandelle-1", "Helvetica Neue", Helvetica, sans-serif;
   text-align: left;
 }
 
@@ -34,7 +34,7 @@ h1#title{
 ul#menu,ul#posts-list {
   list-style: none;
   text-align: center;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "tandelle-2", "Helvetica Neue", Helvetica, sans-serif;
 }
 #menu li {
   float: right;
@@ -51,7 +51,7 @@ img#license {
   float:right;
 }
 div#license,div#menu, #source{
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "tandelle-2", "Helvetica Neue", Helvetica, sans-serif;
   font-size:10pt;
 }
 p#license, #source{
