@@ -19,58 +19,43 @@
   <!-- CSS -->
   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
 
-  <!-- TypeKit -->
-  <script type="text/javascript" src="http://use.typekit.com/znt2sjg.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 
 <body>
 
-  <div id="container" class="container_12">
+  <div id="main-container" class="container_12">
+   
+    <div id="spacer" class="grid_7"><p></p></div>
+  
+    <div id="menu" class="grid_5">
+      <ul id="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="http://github.com/papyromancer">GitHub</a></li>
+        <li><a href="http://www.google.com/reader/shared/papyromancer">Reader</a></li>
+        <li><a href="http://twitter.com/papyromancer">Twitter</a></li>
+      </ul>
+    </div>
+    
+    <div id="clear" class="clear">&nbsp;</div>
+    <div id="spacer" class="grid_3">&nbsp;</div>
+    
+    <div id="content-container" class="grid_9">
+      <h1 id="title">{{ page.title }}</h1>
       
-      <div id="spacer" class="grid_1"><p></p></div>
-      <div id="menu" class="grid_10">
-        <ul id="menu">
-          <li><a href="/">Home</a></li>
-          <li><a href="http://github.com/papyromancer">GitHub</a></li>
-          <li><a href="http://www.google.com/reader/shared/papyromancer">Reader</a></li>
-          <li><a href="http://twitter.com/papyromancer">Twitter</a></li>
-        </ul>
-      </div>
-      
-      <div class="clear"></div>
-      <div id="spacer" class="grid_2"><p></p></div>
-
-      <div id="title" class="grid_9">
-        <h1 id="title">{{ page.title }}</h1>
-      </div>
-      
-      <div class="clear"></div>
-      <div id="spacer" class="grid_2"><p></p></div>
-
-      <div id="content" class="grid_9">
+      <div id="content">
         {{ content }}
       </div>
-
-      <div class="clear"></div>
-      <div id="spacer" class="grid_3"><p></p></div>
-     
-      <div id="source" class="grid_7">
+    </div>
+    
+    <div id="clear" class="clear">&nbsp;</div>
+    <div id="spacer" class="grid_5">&nbsp;</div>
+    
+    <div id="footer-container" class="grid_7">
+      <div id="footer">
+        <p id="license"><a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/"><img id="license" alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/us/80x15.png" /></a><span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type"><em><a href="{{page.url}}">{{ page.title }}</a></em></span> by <a xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName" rel="cc:attributionURL" href="http://papyromancer.net/resume.html">Papyromancer</a> is licensed under a <br /><a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0 United States License</a></p>
         <p id="source"> The source code of this website is available <a href="http://github.com/papyromancer/papyromancy">on Github</a></p>
       </div>
-
-      <div class="clear"></div>
-      <div id="spacer" class="grid_3"><p></p></div>
-
-      <div id="license" class="grid_7">
-    
-        <div id="license">
-          <p id="license"><a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/"><img id="license" alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/us/80x15.png" /></a><span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type"><em><a href="{{page.url}}">{{ page.title }}</a></em></span> by <a xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName" rel="cc:attributionURL" href="http://papyromancer.net/resume.html">Papyromancer</a> is licensed under a <br /><a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0 United States License</a></p>
-        </div>
-    
-      </div>
-
+    </div>
   </div>
-
 </body>
 </html>

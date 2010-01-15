@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "Orbitron Black";
+  src: url("/fonts/Orbitron/OTF/orbitron-black.otf");
+}
+@font-face {
+  font-family: "Goudy Bookletter 1911";
+  src: url("/fonts/GoudyBookletter1911.otf");
+}
+@font-face {
+  font-family: "Miso";
+  src: url("/fonts/MISO____.OTF");
+}
+@font-face {
+  font-family: "Miso Bold";
+  src: url("/fonts/MISO-BOL.OTF");
+}
 body {
   background-color: #000;
   background-image: url('http://merlin.lightcorp.net/morgan-wiki/Visualizations/DiscussionvsVandalismArt.png');
@@ -5,27 +21,23 @@ body {
   background-repeat:no-repeat;
   background-attachment:fixed;
   color: #111;
-  font-family: "sorts-mill-goudy-1", Georgia, serif;
+  font-family: "Goudy Bookletter 1911", Georgia, serif;
   font-size:12pt;
 }
 
-#title, #menu, #content, #footer, #source, #license, #posts-list, div#disqus_thread{
-  background-color: rgba(255,255,255,0.8);
-  border-radius: 10px;
+#menu, #content-container, #footer-container{
+  background-color: rgba(255,255,255,0.84);
+  border-radius: 20px;
   margin: 10px;
 }
 
-p, img, ul, h1, h2, h3, h4, h5, h6, address{
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 h1,h2,h3,h4,h5,h6, address {
-  font-family: "tandelle-1", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Miso Bold", "Helvetica Neue", Helvetica, sans-serif;
   text-align: left;
 }
 
 h1#title{
+  font-family: "Orbitron Black", "Helvetica Neue", Helvetica, sans-serif;
   text-align: center;
   font-size:36pt;
   font-weight:bold;
@@ -34,26 +46,37 @@ h1#title{
 ul#menu,ul#posts-list {
   list-style: none;
   text-align: center;
-  font-family: "tandelle-2", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Miso Bold", "Helvetica Neue", Helvetica, sans-serif;
 }
 #menu li {
   float: right;
   margin: 10px;
+  font-size:14pt;
 }
 
 ul#posts-list {
-  font-size: 14pt;
+  font-size: 18pt;
 }
-#menu {
-  font-size:10pt;
+
+#content, #footer {
+  padding: 20px;
 }
+
 img#license {
   float:right;
 }
-div#license,div#menu, #source{
-  font-family: "tandelle-2", "Helvetica Neue", Helvetica, sans-serif;
-  font-size:10pt;
-}
-p#license, #source{
+
+#license, #menu, #source{
+  font-family: "Miso", "Helvetica Neue", Helvetica, sans-serif;
+  font-size:12pt;
   text-align: right;
+}
+
+div.gist-data {
+  height: 350px;
+  overflow: auto;
+}
+
+div.gist-meta {
+  font-family: "Miso", "Helvetica Neue", Helvetica, sans-serif;
 }
