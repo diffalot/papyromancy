@@ -64,6 +64,7 @@ ul#posts-list {
 
 img#license {
   float:right;
+  margin-left: 10px;
 }
 
 #license, #menu, #source{
