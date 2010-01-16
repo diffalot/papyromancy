@@ -62,6 +62,10 @@ ul#posts-list {
   padding: 20px;
 }
 
+#content p, #content li {
+  font-size: 14pt;
+}
+
 img#license {
   float:right;
   margin-left: 10px;
