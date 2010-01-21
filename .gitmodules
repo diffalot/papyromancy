@@ -7,3 +7,9 @@
 [submodule "_posts/hacks/jekyll-hacks"]
 	path = _posts/hacks/jekyll-hacks
 	url = git@gist.github.com:274815.git
+[submodule "_posts/archives-are-bitchun"]
+	path = _posts/archives-are-bitchun
+	url = git@github.com:papyromancer/iacc-promo-subtitles.git
+[submodule "_posts/iacc-promo"]
+	path = _posts/iacc-promo
+	url = git@github.com:papyromancer/iacc-promo-subtitles.git
