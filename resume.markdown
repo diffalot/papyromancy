@@ -20,11 +20,11 @@ title: Résumé
 
 ### System Administration
 
-> Debian, Gentoo, OpenBSD, OS-X, Windows XP
+> Debian, Arch Linux, Gentoo, OpenBSD, OS-X, Windows
 
 ### Programming Languages and Tools
 
-> Bash, Ruby on Rails, CVS, Subversion, Git, Emacs
+> Bash, Ruby on Rails, CVS, Subversion, Git, Vim
 
 ### Server
 
@@ -32,7 +32,7 @@ title: Résumé
 
 ### Office
 
-> OpenOffice.org, Microsoft Office
+> OpenOffice.org
 
 ### Media Production
 
@@ -48,9 +48,4 @@ Manuals, Forums, and Chat Rooms
 
 ##References
 
-* Jef Judin
-> President - 4Tell Films
-* Dave White
-> VP & GM - Multiple Industrial Complexes (retired)
-* JD Lasica
-> Co-Founder - Ourmedia.org 
+> Available upon request
