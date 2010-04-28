@@ -16,6 +16,3 @@
 [submodule "_posts/iacc-promo"]
 	path = _posts/iacc-promo
 	url = git@github.com:papyromancer/iacc-promo-subtitles.git
-[submodule "ogv"]
-	path = ogv
-	url = git@github.com:ogv/ogv.github.com.git
