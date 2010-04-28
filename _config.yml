@@ -3,3 +3,6 @@ server: true
 lsi: true
 permalink: /:title.html
 pygments: true
+source: /home/papyromancer/src/lightcorp-sites/papyromancer
+destination: /home/papyromancer/src/lightcorp-sites/papyromancer/_site
+exclude: [ /home/papyromancer/src/lightcorp-sites/ogv/favicon.ico /home/papyromancer/src/lightcorp-sites/ogv/build ]
