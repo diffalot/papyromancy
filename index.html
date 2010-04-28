@@ -1,88 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+---
+layout: default
+title: Papyromancy 
+categories: [Wikipedia, Nodebox, Visualization, Collaboration]
+---
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>Papyromancy < Papyromancy</title>
-  <meta name="author" content="Papyromancer" />
-
-  <!-- 960 GS -->
-  <link rel="stylesheet" type="text/css" media="all" href="css/960.gs/code/css/reset.css" />
-  <link rel="stylesheet" type="text/css" media="all" href="css/960.gs/code/css/text.css" />
-  <link rel="stylesheet" type="text/css" media="all" href="css/960.gs/code/css/960.css" />
-
-  <!-- syntax highlighting CSS -->
-  <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-
-</head>
-
-<body>
-
-  <script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-608544-12']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
-    })();
-
-  </script>
-
-  <div id="main-container" class="container_12">
-   
-    <div id="spacer" class="grid_5"><p></p></div>
-  
-    <div id="menu" class="grid_7">
-      <ul id="menu">
-        <li><a href="/">Home</a></li>
-        <li><a href="ogv/">#ogv</a></li>
-        <li><a href="http://github.com/papyromancer">GitHub</a></li>
-        <li><a href="http://www.youtube.com/user/papyromancer">YouTube</a></li>
-        <li><a href="http://flickr.com/papyromancer">Flickr</a></li>
-        <li><a href="http://twitter.com/papyromancer">Twitter</a></li>
-        <li><a href="http://www.google.com/reader/shared/papyromancer">Reader</a></li>
-      </ul>
-    </div>
-    
-    <div id="clear" class="clear">&nbsp;</div>
-    <div id="spacer" class="grid_3">&nbsp;</div>
-    
-    <div id="content-container" class="grid_9">
-      <h1 id="title">Papyromancy</h1>
-      
-      <div id="content">
-        <ul id="posts-list">
-  
-    <li><span>31 Jan 2010</span> &raquo; <a href="/open-video-is-bitchun.html">Open Video is Bitchun</a></li>
-  
-    <li><span>14 Jan 2010</span> &raquo; <a href="/wikipedia-visualizations.html">Visualizing Wikipedia Editors</a></li>
-  
-    <li><span>01 Jan 2010</span> &raquo; <a href="/iacc-promo.html">The Internet Archive and Creative Commons are Bitchun</a></li>
-  
+<ul id="posts-list">
+    {% for post in site.posts %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
 </ul>
-
-
-      </div>
-    </div>
-    
-    <div id="clear" class="clear">&nbsp;</div>
-    <div id="spacer" class="grid_5">&nbsp;</div>
-    
-    <div id="footer-container" class="grid_7">
-      <div id="footer">
-        <p id="license"><a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/"><img id="license" alt="Creative Commons License" style="border-width:0" src="/images/cc-by.png" /></a><span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type"><em><a href="">Papyromancy</a></em></span> by <a xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName" rel="cc:attributionURL" href="http://papyromancer.net/resume.html">Papyromancer</a> is licensed under a <br /><a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0 United States License</a></p>
-        <p id="source"> The source code of this website is available <a href="http://github.com/papyromancer/papyromancy">on Github</a></p>
-      </div>
-    </div>
-  </div>
-</body>
-</html>
