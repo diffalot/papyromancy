@@ -13,3 +13,6 @@
 [submodule "_posts/videos/iacc-promo-subtitles"]
 	path = _posts/videos/iacc-promo-subtitles
 	url = git@github.com:papyromancer/iacc-promo-subtitles.git
+[submodule "_posts/hacks/webM"]
+	path = _posts/hacks/webM
+	url = git@gist.github.com:450103.git
